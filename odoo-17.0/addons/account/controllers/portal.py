@@ -24,7 +24,7 @@ class PortalAccount(CustomerPortal):
                 if request.env['account.move'].check_access_rights('read', raise_exception=False) else 0
             values['bill_count'] = bill_count
         return values
-
+#comtetss
     # ------------------------------------------------------------
     # My Invoices
     # ------------------------------------------------------------
